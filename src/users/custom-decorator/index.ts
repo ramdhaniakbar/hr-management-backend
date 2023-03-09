@@ -1,0 +1,1 @@
+export { UserDoc} from "./user.decorator"

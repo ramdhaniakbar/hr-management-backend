@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {    
+    "assets": [
+      {
+        "include": "../upload-file",
+        "outDir": "dist/upload-file",
+        "watchAssets": true
+      },
+      {
+        "include": "../views",
+        "outDir": "dist/views",
+        "watchAssets": true
+      }
+    ],
+    "watchAssets": true
+  }
+}
+

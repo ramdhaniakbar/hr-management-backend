@@ -1,0 +1,5 @@
+export * from "./master-bank.model" 
+export * from "./master-menu.model"
+export * from "./master-national-holiday.model"
+export * from "./master-state-province.model"
+export * from "./master-umr.model" 
